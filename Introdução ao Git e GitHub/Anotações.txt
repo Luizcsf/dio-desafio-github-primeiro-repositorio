@@ -1,4 +1,32 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
 
+Origem do Git (fonte: https://pt.wikipedia.org/wiki/Git)
+
+O Git é um sistema de controle de versões distribuído, usado principalmente por desenvolvedores, mas pode ser usado para resgistrar o histórico de edições de qualquer arquivo na internet.
+Linus Torvalds, o criador do Linux, foi um dos criadores desse sistema em 2005.
+Ele nasceu devido à insatisfação de vários desenvolvedores do kernel do Linux em relação ao Bitkeeper, que é um software proprietários.
+O acesso gratuito ao BitKeeper foi removido pelo detentor dos direitos autorais, Larry McVoy, depois de acusar Andrew Tridgell de usar de engenharia reversa nos protocolos do BitKeeper, alegando violação da licença do mesmo. 
+Tridgell demonstrou, em uma apresentação na Linux.Conf.Au, realizada em 2005, que o processo de engenharia reversa utilizado não foi mais do que simplesmente direcionar um telnet para a porta apropriada de um servidor BitKeeper e digitar "help".
+Torvalds queria um sistema distribuído que ele pudesse utilizar de forma similar ao BitKeeper (BK), mas nenhum dos sistemas livres disponíveis atendia suas necessidades, particularmente com relação à performance. 
+
+
+Alguns comandos do Git:
+Ctrl+L = limpar tela.
+git status = para mostrar o status do repositório local, em que estágio estão os arquivos e pastas contidos nele.
+git init = iniciar um repositório local.
+git add = adicionar os arquivos e pastas do projeto para a staging area. Sem ele, não é possível executar o commit.
+git commit = uma das funções principais do Git, ele é usado para criar um instantâneo das alterações preparadas no histórico de projetos do git.
+git config --global (username, email, password) = serve para configurar seus dados no git bash para poder fazer a sincronia do repositório local com o repositório online.
+
+Principal diferença da versão 2.30 do Git pra frente:
+Git Credential management Core = um núcleo de gerenciamento de credenciais muito melhor que o gerenciador antigo.
+
+Principais conflitos de git hub:
+Geralmente ocorrem quando você e mais alguém mexem no mesmo arquivo e editam a mesma linha de código e submetem um novo commit.
+Isso pode acontecer ao mesclar branches ou commits dentro da mesma branch.
+Esse conflito é comum quando um mesmo arquivo é modificado por duas versões diferentes e elas não podem ser mescladas.
+
+
+
 
